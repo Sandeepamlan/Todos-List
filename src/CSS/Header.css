@@ -1,0 +1,46 @@
+
+.navbar-brand{
+   font-size: 20px;
+   color: rgb(5, 5, 5);
+   text-decoration: none;
+   
+}
+
+.navbar-brand:hover{
+    font-size: 20px;
+    color: rgb(0, 88, 252);
+    text-decoration: none;
+    text-shadow: 1.5px 0.5px;
+ }
+ .nav-item .nav-link :active{
+    color: rgb(70, 246, 0);
+ }
+
+ .nav-item .nav-link{
+    color: rgb(196, 25, 25);
+ }
+ .nav-link:active{
+    color: blue;
+ }
+ img{
+    width: 24px;
+    height: 24px;
+ }
+
+ 
+@media (prefers-reduced-motion: no-preference) {
+    .logo-icon {
+      animation: logo-icon-spin infinite 20s linear;
+    }
+  }
+
+  
+@keyframes logo-icon-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(3600deg);
+    }
+  }
+  
